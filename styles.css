@@ -60,3 +60,22 @@ nav a:hover {
  clear: both;
  display: table;
 }
+
+
+.column {
+float: left;
+padding: 5px;
+width: 200px;
+height: 200px;
+}
+
+.row:after {
+ content: "";
+ clear: both;
+ display: table;
+}
+
+video {
+ display: block;
+ margin: 0 auto
+}
